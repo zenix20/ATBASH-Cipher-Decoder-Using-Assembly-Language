@@ -31,19 +31,24 @@ Example:
 
 ---
 
-## How to Run
-### Prerequisites
-1. Install [DOSBox](https://www.dosbox.com/).
-2. Install MASM (e.g., [MASM32](http://www.masm32.com/) or use a package like `masm` in Linux).
+## Development Tools
+Pre-packaged tools (2.85 MB) available in [tools.zip](/tools.zip):
+- **Assembler**: `ml.exe` (MASM 6.11)
+- **Linker**: `LINK.EXE`
+- **Emulator**: DOSBox 0.74-3 installer
+- **Debugger**: `DEBUG.COM`
+- **Reference**: `MasmRef.doc` (Word format)
 
+## Quick Start
+**Install tools**:
+   - Extract [tools.zip](/tools.zip)
+   - Run `DOSBox0.74-3-win32-installer.exe`
+     
 ### Steps
 1. **Assemble**:
    ```bash
    masm/ml ATBASH-CIPHER-DECODER.asm;
-2. **Link**:
-   ```bash
-   link MIDTERM.obj;
-3. **Run in DOSBox**:
+2. **Run in DOSBox**:
    ```bash
    MIDTERM.exe
 
