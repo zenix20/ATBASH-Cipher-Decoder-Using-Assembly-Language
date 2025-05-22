@@ -46,10 +46,12 @@ Pre-packaged tools (2.85 MB) available in [tools.zip](/tools.zip):
      
 ### Steps
 1. **Assemble**:
+   - Execute this command on cmd while being in the directory that contains ml.exe, for ease keep the asm file in the same directory
    ```bash
-   masm/ml ATBASH-CIPHER-DECODER.asm;
-2. **Run in DOSBox**:
+   ml ATBASH-CIPHER-DECODER.asm;
+3. **Run in DOSBox**:
+   - mount the directory that contains the ml.exe on DOS box and then execute the following command
    ```bash
-   MIDTERM.exe
+   ATBASH-CIPHER-DECODER.exe
 
 
